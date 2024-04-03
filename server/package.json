@@ -1,0 +1,25 @@
+{
+  "name": "react-video-room-system",
+  "version": "1.0.0",
+  "description": "Welcome to the React Video Room System project! This repository contains the implementation of a simple room-based system where users can join video call rooms. The system efficiently manages multiple peer connections, ensuring low latency and synchronized state across clients.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "dev": "nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harisbaig100/react-video-room-system.git"
+  },
+  "author": "M.Haris Baig",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harisbaig100/react-video-room-system/issues"
+  },
+  "homepage": "https://github.com/harisbaig100/react-video-room-system#readme",
+  "dependencies": {
+    "express": "^4.19.2",
+    "nodemon": "^3.1.0"
+  }
+}
